@@ -1,0 +1,36 @@
+/* Estilizar o fundo do modal */
+.visualizarVaga {
+    display: none; /* Escondido por padrão */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro com transparência */
+}
+
+/* Conteúdo do modal */
+.visualizarVagaConteudo {
+    position: relative;
+    background-color: white;
+    margin: 15% auto; /* Centralizar verticalmente */
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.visualizarVagaConteudoDetalhes {
+    margin: 5% auto;
+}
+
+/* Botão de fechar */
+.fechar {
+    /* float: right; */
+    position: absolute;
+    font-size: 32px;
+    cursor: pointer;
+    text-align: right;
+    top: 10px;
+    right: 10px;
+}
