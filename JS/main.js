@@ -18,10 +18,3 @@ if(menu) {
         window.location.href = './index.html'
     })
 }
-
-let visualizarVaga = document.getElementById('visualizar-vaga');
-if(visualizarVaga) {
-    visualizarVaga.addEventListener('click', () => {
-        window.location.href = './visualizarVaga.html'
-    })
-}

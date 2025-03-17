@@ -31,7 +31,8 @@ salvar.addEventListener('click', (event) => {
     let vaga = {
         nomeVaga: nomeVaga,
         descricaoVaga: descricaoVaga,
-        dataLimite: dataLimite
+        dataLimite: dataLimite,
+        candidatos: []
     }
 
     localStorage.setItem(nomeVagaIndice, JSON.stringify(vaga));

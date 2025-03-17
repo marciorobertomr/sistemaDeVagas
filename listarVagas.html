@@ -12,8 +12,7 @@
             <h1>Vagas Cadastradas</h1>
             <ol class="m-5">
                 <table class="table">
-                    <thead>
-                        <th class="w-25">ID</th>
+                    <thead></thead>
                         <th>Vaga</th>
                         <th>Data Limite</th>
                         <th>Opções</th>
@@ -29,12 +28,24 @@
             <div class="visualizarVagaConteudo">
                 <p id="fechar" class="fechar"><ion-icon name="close-circle-outline"></ion-icon></p>
                 <div class="visualizarVagaConteudoDetalhes">
-                    <h2>Nome da Vaga</h2>
+                    <h4>Nome da Vaga</h4>
                     <p id="nome"></p>
-                    <h2>Descrição da Vaga</h2>
+                    <hr>
+                    <h4>Descrição da Vaga</h4>
                     <p id="descricao"></p>
-                    <h2>Data Limite</h2>
+                    <hr>
+                    <h4>Data Limite</h4>
                     <p id="data"></p>
+                    <hr>
+                    <h4>Candidatos Incritos</h4>
+                    <p id="candidatos"></p>
+                </div>
+                <div id="cadastraCandidato" class="candidato">
+                    <hr>
+                    <h4>Nome do Candidato</h4>
+                    <input type="text" id="nomeCandidato" class="m-1">
+                    <br>
+                    <button id="salvar" class="btn btn-primary m-2">Salvar</button>
                 </div>
             </div>
         </div>
